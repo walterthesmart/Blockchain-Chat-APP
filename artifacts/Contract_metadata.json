@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "enum Contract.Choices",
+						"name": "choice",
+						"type": "uint8"
+					}
+				],
+				"name": "changeVote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum Contract.Choices",
+						"name": "choice",
+						"type": "uint8"
+					}
+				],
+				"name": "createVote",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					}
+				],
+				"name": "findChoice",
+				"outputs": [
+					{
+						"internalType": "enum Contract.Choices",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					}
+				],
+				"name": "hasVoted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "votes",
+				"outputs": [
+					{
+						"internalType": "enum Contract.Choices",
+						"name": "choice",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "voter",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"VoteStruct.sol": "Contract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"VoteStruct.sol": {
+			"keccak256": "0x37712b4128330c6db8c5d326f4435de289b2caf4e945394c446ae13b505cf6c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://388092cf031473cfa93ff8cbbdb37686ebef672b14942d578f3df72e40b5f4b4",
+				"dweb:/ipfs/QmdGooS8HoPnMsmriV4hkYkF89S2gBymnt2PH1P9egtaXv"
+			]
+		}
+	},
+	"version": 1
+}

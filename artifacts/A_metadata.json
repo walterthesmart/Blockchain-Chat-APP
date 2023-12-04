@@ -46,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"superKeyword.sol": "B"
+			"superKeyword.sol": "A"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

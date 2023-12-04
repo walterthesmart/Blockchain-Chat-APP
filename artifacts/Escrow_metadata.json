@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "address",
+								"name": "depositor",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "beneficiary",
+								"type": "address"
+							},
+							{
+								"internalType": "address",
+								"name": "arbiter",
+								"type": "address"
+							},
+							{
+								"internalType": "uint256",
+								"name": "paymentAmount",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Escrow.Agreement",
+						"name": "_agreement",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Agree.sol": "Escrow"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Agree.sol": {
+			"keccak256": "0x419290da415ddb3148c9f93e97255c69f449949709d0ce10af24f761074e99a3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e92bd93b093ecd94090fec4572c3b4688a6eee82d1acb1731242d362ee08cf35",
+				"dweb:/ipfs/QmW4J9C7yPCoB9BsDCUEzuNmPCMQSDf46JSCSoDdT9g5ZZ"
+			]
+		}
+	},
+	"version": 1
+}

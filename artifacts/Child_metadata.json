@@ -84,7 +84,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"visibility.sol": "Base"
+			"visibility.sol": "Child"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},

@@ -9,32 +9,24 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_counter",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
 						"type": "address"
 					}
 				],
-				"name": "getCount",
+				"name": "getPair",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_counter",
-						"type": "address"
-					}
-				],
-				"name": "incrementCounter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -51,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"interface.sol": "MyContract"
+			"interface.sol": "UniswapV3Factory"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -66,11 +58,11 @@
 	},
 	"sources": {
 		"interface.sol": {
-			"keccak256": "0x5cf073a4ed65bd003910b7e28292aba8a8a16fbcbe45c25716677d3a8d24896d",
+			"keccak256": "0x51c47eb5b9343a69dbd8c4a1298fca34b1c8bb3bc1d03696857676402b0b876e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2f9132e96a15e83d1d6e003ad445f7d3c901982324006fcfddf101ed2dfc4dd6",
-				"dweb:/ipfs/QmRjaMdioSFHZ4TSBn28cpcYoyKnV5CNRPJqvF8dqoYjpB"
+				"bzz-raw://fbe284555cf3050490596cc88d8807ec47d6366cfeaecc0c00df1df510bdb423",
+				"dweb:/ipfs/QmXvyrju97DpNS6QXdP4HVh5tDbJFb1AZ4Wa9F7Np5qGXV"
 			]
 		}
 	},
